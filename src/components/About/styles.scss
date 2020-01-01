@@ -2,6 +2,8 @@
 
 #about {
   padding: 0 $content-padding $content-padding $content-padding;
+  max-width: 1000px;
+  margin: auto;
 
   li,
   li p {
@@ -31,6 +33,7 @@
       text-align: center;
 
       img {
+        height: 20vh;
         max-height: 15vw;
       }
     }
