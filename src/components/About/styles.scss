@@ -1,0 +1,72 @@
+@import "../../index";
+
+#about {
+  padding: 0 $content-padding $content-padding $content-padding;
+
+  li,
+  li p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .introduction {
+    overflow: auto;
+
+    img {
+      float: right;
+      width: 25vw;
+      max-width: 300px;
+      border-radius: 10px;
+      margin-left: 40px;
+    }
+  }
+
+  .services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .service {
+      flex: 1;
+      text-align: center;
+
+      img {
+        max-height: 15vw;
+      }
+    }
+
+    .spacing {
+      margin: 0 60px;
+      padding: 0 60px;
+      border-left: 1px solid lightgrey;
+      border-right: 1px solid lightgrey;
+    }
+  }
+
+  .technologies {
+    display: flex;
+    padding: 20px 0;
+    align-items: flex-end;
+
+    .technology {
+      flex: 1;
+      text-align: center;
+      padding: 0 20px;
+
+      img {
+        width: 80%;
+        max-width: 150px;
+      }
+
+      .small {
+        width: 60%;
+        max-width: 100px;
+      }
+
+      .large {
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+  }
+}

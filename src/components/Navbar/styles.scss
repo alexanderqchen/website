@@ -1,0 +1,36 @@
+@import "../../index";
+
+#navbar {
+  box-sizing: border-box;
+  padding: $navbar-padding;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    height: $logo-size;
+  }
+
+  ul {
+    margin: 0;
+    margin-left: auto;
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  li {
+    display: inline;
+    margin-left: 60px;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
